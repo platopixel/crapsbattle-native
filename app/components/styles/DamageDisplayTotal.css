@@ -1,0 +1,11 @@
+.damage-display-total__container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.damage-display-total__damage-text {
+    color: red;
+}

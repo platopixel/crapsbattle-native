@@ -1,0 +1,42 @@
+.damage-display-lane__container {
+    width: 100%;
+    height: 150px;
+    border: solid red 1px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.damage-display__icon {
+    height: 50%;
+    width: 10%;
+}
+
+.damage-display-lane__score-container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.damage-display-lane__attack-container {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.damage-display-lane__defense-container {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}

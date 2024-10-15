@@ -1,0 +1,15 @@
+.die-component__die-container {
+    width: 60px;
+    height: 60px;
+    padding: 1px;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+.attack {
+    background: rgba(237, 64, 102, 0.82);
+}
+
+.defend {
+    background: rgba(51, 71, 249, 0.82);
+}

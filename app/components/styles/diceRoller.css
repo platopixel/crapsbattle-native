@@ -1,0 +1,63 @@
+.dice-roller-container {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+.dice-roller__dice-row {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.selected {
+    border: 1px solid white;
+}
+
+.dice-roller__roll-button {
+    width: 50%;
+    height: 30px;
+    align-self: center;
+}
+
+.dice-roller__enemy-text {
+    align-self: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18pt;
+}
+
+.dice-roller__die-player {
+    position: relative;
+    top: 85px;
+}
+
+.dice-roller__lane {
+    height: 100%;
+}
+
+.dice-roller__die-enemy {
+    position: relative;
+    opacity: 0;
+    top: 0;
+}
+
+.animate-player-ready {
+    transition-property: top;
+    transition-duration: 0.25s;
+    top: 0;
+}
+
+.animate-enemy-ready {
+    transition-property: top, opacity;
+    transition-duration: 0.25s, 0.25s;
+    top: 110px;
+    opacity: 1;
+}
+
+.die-container__multiplier {
+    color: white;
+    text-align: center;
+    height: 21px;
+}
